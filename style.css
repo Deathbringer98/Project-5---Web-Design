@@ -1,0 +1,563 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .mainbox {
+    width: 1000px;
+    background-color: white;
+    margin: 30px;
+    text-align: left;
+  }
+  
+  /* Header Boxes */
+  
+  .logobox {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    float: left;
+  }
+  
+  .navbox {
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    float: right;
+    margin-top: 70px;
+    margin-right: 25px;
+    padding-top: 5px;
+  }
+  
+  nav a:link,
+  nav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+  }
+  
+  nav a:hover {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+  }
+
+  /* Index Page CSS */
+  
+  /* Main Picture Boxes */
+  
+  .mainpicturebox {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin-top: 30px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .overlay h1 {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: black;
+  }
+  
+  .transparentimage {
+    opacity: 0.8;
+  }
+  
+  /* Intro Box */
+  
+  .introbox {
+    width: 600px;
+    float: left;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    line-height: 1.75;
+  }
+  
+  /* Our Work Boxes */
+  
+  .ourwork {
+    width: 800px;
+    height: 650px;
+    background-color: white;
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  
+  .landscapepicturebox {
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    float: right;
+  }
+  
+  .buttonbox {
+    width: 150px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+    float: left;
+  }
+  
+  .button {
+    width: 150px;
+    height: 30px;
+    background-color: gray;
+    padding-top: 5px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+  }
+  
+  a:link,
+  a:visited {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+  
+  /* Package Boxes */
+  
+  .textbox1 {
+    width: 450px;
+    height: 350px;
+    background-color: lightgray;
+    margin-top: 60px;
+    margin-left: 10.5px;
+    margin-bottom: 40.5px;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .textbox2 {
+    width: 450px;
+    height: 350px;
+    background-color: lightgray;
+    margin-top: 60px;
+    margin-right: 10.5px;
+    margin-bottom: 40.5px;
+    border-radius: 10px;
+    float: right;
+  }
+  
+  .learnmorebutton {
+    width: 225px;
+    height: 25px;
+    background-color: gray;
+    padding-top: 3px;
+    border-radius: 15px;
+  }
+  
+  /* We would love to hear from you Box */
+  
+  .textbox3 {
+    width: 900px;
+    height: 150px;
+    background-color: white;
+    margin-top: 60px;
+    margin-left: 35px;
+    float: left;
+  }
+  
+  h4 {
+    font-family: sans-serif;
+  }
+  
+  .socialmedia {
+    color: black;
+    width: 200px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 15px;
+    padding-top: 7px;
+  }
+  
+  .socialmedia a:link,
+  .socialmedia a:visited {
+    color: black;
+  }
+  
+  .socialmedia a:hover {
+    font-weight: bold;
+  }
+  
+  .contactusbutton {
+    width: 150px;
+    height: 30px;
+    float: left;
+    background-color: grey;
+    padding-top: 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 375px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    clear: both;
+    margin-top: 30px;
+  }
+  
+  .topofpage {
+    width: 200px;
+    text-align: left;
+    background-color: white;
+    font-family: sans-serif;
+    float: left;
+    margin-top: 15px;
+  }
+
+  footer a:link{
+    color: black;
+  }
+  
+  footer a:hover {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  footer a:visited {
+    color: black;
+  }
+  .copyright{
+    width: 200px;
+    text-align: right;
+    background-color: white;
+    font-family: sans-serif;
+    float: right;
+    margin-top: 15px;
+
+  }
+
+
+  /* Portfolio Pages CSS */
+
+  .selectorr .titles {
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 3em;
+  }
+  
+  element.style {
+    cursor: pointer;
+  }
+  
+  .titles li,
+  .element.style {
+    cursor: pointer;
+  }
+  
+  .content-section {
+    display: none;
+    transition: opacity 0.5s;
+  }
+  
+  .content-section:target {
+    display: block;
+    opacity: 1;
+  }
+  
+  .mainbox2 {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+  }
+  
+  .testbutton {
+    font-family: sans-serif;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 2px solid #3866A3;
+    background: #888888; /* Updated to gray color */
+    background: linear-gradient(to top, #888888, #666666); /* Updated to gray color */
+  }
+  
+  .testbutton:hover {
+    color: gray !important;
+    background: gray;
+    background: linear-gradient(to top, gray, gray);
+  }
+  
+  .selectorr .titles li.active {
+    background: #555;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 600;
+  }
+  
+  .selectorr .titles li {
+    display: inline-block;
+    padding: 0.65em 1.25em;
+    text-decoration: none;
+    font-size: 1em;
+    outline: 0;
+  }
+  
+  .text-box {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .introbox {
+    text-align: center;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .test-button {
+    font-family: arial;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    text-shadow: 1px 1px 0px #7CACDE;
+    box-shadow: 1px 1px 1px #BEE2F9;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #888888;
+    background: linear-gradient(to top, #888888, #CCCCCC);
+  }
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .grid-image {
+    width: 320px;
+    height: 230px;
+    object-fit: cover;
+  }
+  
+  .grid {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .griditem {
+    position: center;
+    width: 96px;
+    height: 100px;
+    background-color: rgb(28, 149, 209);
+    float: left;
+    border: 2px white solid;
+    border-radius: 7px;
+  }
+  
+  .gridblank {
+    width: 96px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    border: 2px white solid;
+  }
+  
+  .footer-textbox {
+    text-align: left;
+    text-decoration-color: black;
+  }
+  
+  .footer-textbox2 {
+    text-align: right;
+    text-decoration-color: black;
+  }
+  
+
+  /*Contact Page*/
+
+  
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+  /* .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;
+  } */
+  
+  /* form animation starts */
+  .form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: black;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #0e3721;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+  

@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color: white;
+}
+ 
+main{
+    padding-top: 50px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+   
+}
+.mainbox{
+    width: 1000px;
+    background-color: white;
+    margin: 30px;
+    text-align: left;
+}
+
+img{
+    border-radius: 5%;
+ 
+}
+/* Header Boxes*/
+
+.logobox{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    margin-top: 30px;
+    float: left;
+
+}
+.navbox{
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    float: right;
+    margin-top: 70px;
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+nav a:link{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+nav a:hover{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: blue;
+}
+
+
+/* Main Section Boxes*/
+
+
+.text-with-pic{
+    display: flex;
+    line-height: 30px;
+  
+    
+}
+.text-with-pic img{
+    margin-left: 40px;
+}
+
+.boldlisttext{
+    font-weight: 700px;
+}
+
+/*Pricing*/
+
+.tableheader{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    padding:10px;
+    text-align:center;
+    color:black;
+}
+
+.tablerow1{
+    text-align: center;
+}
+
+.tablerow2{
+    line-height: 40px;
+    text-align: center;
+}
+
+.tablerow3{
+    text-align:center;
+}
+
+.alacartebox{
+    width:1000px;
+    height:250px;
+    text-align: center;
+    padding-bottom: 10px;
+  
+}
+
+.sessionphotobox{
+    width:250px;
+    height:300px;
+    float:left;
+    margin-bottom:0px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.bookingbox{
+    width:250px;
+    height:250px;
+    float:left;
+    margin-top:0px;
+    margin-right:40px;
+    margin-left: 40px;
+    margin-bottom:0px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+
+/* We would love to hear from you Box */
+
+.textbox3{
+    width: 900px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 35px;
+    float: left;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.socialmedia{
+    color: black;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 24px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 15px;
+    padding-top: 7px;
+}
+.socialmedia a:link{
+    color: black;
+}
+.socialmedia a:hover{
+    font-weight: bold;
+}
+.socialmedia a:visited{
+    color: black
+}
+.contactusbutton{
+    width: 150px;
+    height: 30px;
+    float: left;
+    background-color: grey;
+    padding-top:5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 375px;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Footer */
+
+.copyright{
+    width:200px;
+    text-align: right;
+    color: black;
+    background-color: white;
+    font-family:sans-serif;
+    float: right;
+    margin-top: 15px;
+}
+.topofpage{
+    width:200px;
+    text-align: left;
+    background-color: white;
+    font-family:sans-serif;
+    float: left;
+    margin-top: 15px;
+}
+footer a:link{
+    color: black;
+}
+footer a:hover{
+    color: blue;
+    font-weight: bold;
+}
+footer a:visited{
+    color: black;
+}
